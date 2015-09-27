@@ -132,4 +132,4 @@ The "run_analysis.R" script ran all the necessary transforms to create the final
 5. Removes non-mean and non-standard deviation data
 6. Merges the data into a single dataframe
 7. Transforms the data variables into means per subject and activity type
-8. Writes the final data into a CSV
+8. Writes the final data into a text file
