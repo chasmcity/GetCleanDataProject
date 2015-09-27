@@ -59,4 +59,4 @@ final <- dcast(final, subject + activity ~ variable, mean)
 rm(subjectTrain, xTrain, yTrain, subjectTest, xTest, yTest, trainFrame, testFrame, fullFrame, activity, features, fullFrameFinal)
 
 # write final data into a CSV
-write.csv(final, file = "tidy.csv", row.names = FALSE)
+write.table(final, file = "tidy.txt", row.names = FALSE)
